@@ -1,2 +1,4 @@
 magento-snippets
 ================
+
+ * Catalog
