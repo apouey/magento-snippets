@@ -40,3 +40,51 @@ Namespace
 		|-- Model
 		|-- sql
 ```
+
+## Magento templates location
+
+```php
+app
+|-- design
+	|-- frontend
+		|-- package_name
+			|-- theme_name
+				|-- template
+					|-- *.phtml
+```
+
+## Magento Layout files location
+
+```php
+app
+|-- design
+	|-- frontend
+		|-- package_name
+			|-- theme_name
+				|-- layout
+					|-- *.xml
+```
+
+## Magento Locale files location
+
+```php
+app
+|-- design
+	|-- frontend
+		|-- package_name
+			|-- theme_name
+				|-- locale
+					|-- *.csv
+```
+
+## Magento skin files location
+
+```php
+skin
+|-- frontend
+	|-- package_name
+		|-- theme_name
+			|-- js
+			|-- css
+			|-- images
+```
