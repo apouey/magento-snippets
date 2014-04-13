@@ -88,3 +88,22 @@ skin
 			|-- css
 			|-- images
 ```
+
+## Magento design areas (adminhtml and frontend)
+
+```php
+app
+|-- design
+	|-- adminhtml
+	|-- frontend
+	|-- install
+```
+
+```php
+app
+|-- design
+	|-- area_name
+		|-- package_name
+```
+
+## Magento class naming conventions

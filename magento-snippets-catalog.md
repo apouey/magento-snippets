@@ -1,0 +1,4 @@
+magento-snippets
+================
+
+#Catalog
