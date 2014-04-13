@@ -3,7 +3,9 @@ magento-snippets
 
 #Basics
 
-## Magento Codepools
+## High-level Magento architecture 
+
+### Magento Codepools
 
 Magento has three different codepools:
 
@@ -28,7 +30,7 @@ include_once "Mage/Core/functions.php";
 include_once "Varien/Autoload.php";
 ```
 
-## Magento module structure
+### Magento module structure
 
 ```php
 Namespace
@@ -41,7 +43,7 @@ Namespace
 		|-- sql
 ```
 
-## Magento templates location
+### Magento templates location
 
 ```php
 app
@@ -53,7 +55,7 @@ app
 					|-- *.phtml
 ```
 
-## Magento Layout files location
+### Magento Layout files location
 
 ```php
 app
@@ -65,7 +67,7 @@ app
 					|-- *.xml
 ```
 
-## Magento Locale files location
+### Magento Locale files location
 
 ```php
 app
@@ -77,7 +79,7 @@ app
 					|-- *.csv
 ```
 
-## Magento skin files location
+### Magento skin files location
 
 ```php
 skin
@@ -89,7 +91,7 @@ skin
 			|-- images
 ```
 
-## Magento design areas (adminhtml and frontend)
+### Magento design areas (adminhtml and frontend)
 
 ```php
 app
@@ -106,10 +108,34 @@ app
 		|-- package_name
 ```
 
-## Magento class naming conventions
+### Magento class naming conventions
 
  * Based on the Zend Framework class naming convention
  * Depending on their location in the file system
  * Varien_Autoload is used for automatic upload
+
+### Resolving module conflicts. 
+
+## Magento configuration
+
+### Magento configuration information
+
+### Class group configuration 
+
+### Class overrides in Magento
+
+### Observers
+
+### Events
+
+### Cron job 
+
+## Internationalization 
+
+### Internationalization of a Magento site
+
+### Magento translate classes and translate files
+
+### Using subdomains and subdirectories in internationalization
 
  	
