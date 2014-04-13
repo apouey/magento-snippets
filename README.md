@@ -1,4 +1,4 @@
-magento-snippets
+Magento-snippets
 ================
 
  * [Basics](/magento-snippets-basics.md)
