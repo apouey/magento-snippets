@@ -107,3 +107,9 @@ app
 ```
 
 ## Magento class naming conventions
+
+ * Based on the Zend Framework class naming convention
+ * Depending on their location in the file system
+ * Varien_Autoload is used for automatic upload
+
+ 	
