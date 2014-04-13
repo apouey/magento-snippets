@@ -116,26 +116,44 @@ app
 
 ### Resolving module conflicts. 
 
+@todo
+
 ## Magento configuration
 
 ### Magento configuration information
 
+@todo
+
 ### Class group configuration 
+
+@todo
 
 ### Class overrides in Magento
 
+@todo
+
 ### Observers
+
+@todo
 
 ### Events
 
+@todo
+
 ### Cron job 
+
+@todo
 
 ## Internationalization 
 
 ### Internationalization of a Magento site
 
+@todo
+
 ### Magento translate classes and translate files
+
+@todo
 
 ### Using subdomains and subdirectories in internationalization
 
- 	
+@todo
