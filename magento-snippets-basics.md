@@ -76,7 +76,8 @@ app
 		|-- package_name
 			|-- theme_name
 				|-- locale
-					|-- *.csv
+					|-- language_code
+						|-- *.csv
 ```
 
 ### Magento skin files location
@@ -86,9 +87,9 @@ skin
 |-- frontend
 	|-- package_name
 		|-- theme_name
-			|-- js
 			|-- css
 			|-- images
+			|-- js			
 ```
 
 ### Magento design areas (adminhtml and frontend)
