@@ -374,7 +374,7 @@ foreach ($categories as $category_id) {
 
 Alternative:
 
-```
+```php
 $idSet = Mage::getModel('catalog/category')->getCollection()->getAllIds();
 
 while ($categoryId = array_shift($idSet))
@@ -402,3 +402,11 @@ while ($categoryId = array_shift($idSet))
 
 echo PHP_EOL;
 ```
+
+### Transfert product from one website to another
+(more details on : app\code\core\Mage\Catalog\Model\Resource\Product\website.php)
+
+```php
+ Mage::getModel('catalog/product_website')->addProducts($websiteIds, $productIds) 
+```
+
